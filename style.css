@@ -7,5 +7,6 @@
     color:white
 }
 
-
-test done
+::after {
+    padding: 20px;
+}
