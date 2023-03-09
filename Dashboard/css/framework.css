@@ -9,7 +9,9 @@
 }
 
 
-
+.h-full {
+    height: 100%;
+}
 .p-20{
     padding: 20px;
 }
@@ -21,9 +23,24 @@
 .p-15{
     padding: 15px;
 }
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-10 {
+    padding-bottom:10px ;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
 
+.pb-20{
+    padding-bottom: 20px;
+}
 .m-0 {
     margin: 0;
+}
+.m-15{
+    margin: 15px;
 }
 .m-20 {
     margin: 20px;
@@ -42,18 +59,59 @@
 .mt-10{
     margin-top: 10px;
 }
+
+
+.mt-15{
+    margin-top: 10px;
+}
 .mt-20{
     margin-top: 20px;
 }
 
+
+.mt-25{
+    margin-top: 25px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
 .mb-20 {
     margin-bottom: 20px;
 }
 
+.mr-10{
+    margin-right: 10px;
+}
+
+
+
+.mr-15{
+    margin-right: 15px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
 .w-fit {
     width: fit-content;
 }
 
+.b-none {
+    border: none;
+}
+
+.border-ccc{
+    border: 1px solid #ccc;
+}
 /* start Color */
 
 .c-white {
@@ -65,6 +123,16 @@
 
 .bg-blue {
     background-color: var(--blue-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-red {
+    background-color: var(--red-color);
 }
 .bg-eee {
     background-color: #eee;
@@ -86,6 +154,10 @@
     display: flex;
 }
 
+.f-wrap {
+    flex-wrap: wrap;
+}
+
 .align-center {
     align-items: center;
 }
@@ -96,6 +168,11 @@
     align-items: center;
     justify-content: space-between;
 }
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 .space-between {
     justify-content: space-between;
@@ -126,8 +203,20 @@
 .w-full {
     width: 100%;
 }
+.c-red {
+    color: red;
+}
+.c-blue {
+    color: blue;
+}
 
+.c-orange {
+    color: orange;
+}
 
+.c-green {
+    color: green;
+}
 
 .bg-white {
     background-color: white;
@@ -146,8 +235,15 @@
    text-align: center; 
 }
 
+.fs-13 {
+    font-size: 13px;
+}
 .fs-14 {
     font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
 }
 
 .rad-6 {
@@ -158,4 +254,20 @@
     border-radius: 10px;
 }
 
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+
+.rad-half {
+    border-radius: 50%;
+}
 
