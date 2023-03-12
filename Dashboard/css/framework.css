@@ -271,3 +271,6 @@
     border-radius: 50%;
 }
 
+.p-absolute {
+    position: absolute;
+}
